@@ -3,6 +3,9 @@
  
   <JumpToLocation>Preskočiť na miesto</JumpToLocation>
  
+  <LetterLabelFirstSummerWarning>Leto</LetterLabelFirstSummerWarning>
+  <FirstSummerWarning>Leto začalo! No zima sa blíži.\n\nPlodiny nerastú v zimnom chlade. Zaisti dostatočne zásoby, pokiaľ je to možné.Bwhile you still can.\n\nTiež nezabudni postaviť mrazničku, aby sa ti jedlo nepokazilo.\n\nA tiež skus vyrobiť, kúpiť, najisť ale ukradnúť nejaké teplé oblečenie.</FirstSummerWarning>
+
   <RelationsBrokenDown>Vzťahy so skupinou {0} sa pokazili. Jej členovia sú teraz vašimi nepriateľmi.</RelationsBrokenDown>
   <RelationsWarmed>Vzťahy s {0} pookriali. Už nie sú vašimi nepriateľmi.</RelationsWarmed>
  
@@ -12,23 +15,102 @@
   <Neutral>Neutrálny</Neutral>
  
   <ShortCircuitRain>{0} zoskratoval/a v daždi a vyvolal/a oheň.</ShortCircuitRain>
+    
+  <LetterLabelAreaRevealed>Nové územie odhalene.</LetterLabelAreaRevealed>
   <AreaRevealed>Bola objavená nová miestnosť.</AreaRevealed>
- 
-  <RoofCollapsed>Nastal zosuv strechy, pretože bola príliš ďaleko od podpery.</RoofCollapsed>
+  <AreaRevealedWithMechanoids>Objeveno nové území, ale jsou tam mechanoidi!</AreaRevealedWithMechanoids>
+
+  <RoofCollapsed>Strecha sa prepadla pretože bola príliš ďaleko od podpery.</RoofCollapsed>
   <TheseThingsCrushed>Boli zavalené tieto veci:</TheseThingsCrushed>
   <NothingCrushed>Nič nebolo zavalené.</NothingCrushed>
- 
-  <MentalBreakRampage>{0} mal/a nervový kolaps a v zúrivosti pobieha okolo.</MentalBreakRampage>
-  <MentalBreakDaze>{0} to vzdal/a a opúšťa kolóniu.</MentalBreakDaze>
-  <MentalBreakLeave>{0} to vzdal/a a bezcieľne sa potuluje okolo.</MentalBreakLeave>
- 
+  <LetterLabelRoofCollapsed>Strecha sa prepadla</LetterLabelRoofCollapsed>
+  
   <RecruitSuccess>{0} úspešne získal/a {1} ({2} šanca).</RecruitSuccess>
   <RecruitFail>{0} nezískal/a {1} ({2} šanca).</RecruitFail>
- 
- <Birthday> {0} má dnes narodeniny! {1} už má {2} rokov.</Birthday>
-  <BirthdayWithInjuries>{0} má dnes narodeniny! {1} už má {2} rokov..\n\nNaneštastie, {0} ochorel na následujúce choroby z dôvodu starnutia\n{3}</BirthdayWithInjuries>
   
+  <LetterLabelBirthday>Narodeniny</LetterLabelBirthday>
+  <BirthdayChronological>{0} má dnes narodeniny! Biologicky má {1}{3} rokov, ale chronologicky {1}{2}.\n\nKeďže ľudia v kryospánku nestárnu, chronologické narodeniny sú iné než biologické narodeniny.</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>{0} má dnes narodeniny! {1} už má {2} rokov..\n\nNaneštastie, {0} ochorel na následujúce choroby z dôvodu starnutia\n{3}</BirthdayBiologicalAgeInjuries>
+  
+  <LetterLabelNewDisease>Choroba</LetterLabelNewDisease>
   <NewDisease>{0} ochorel ({1}). Uisti sa, že {0} dostane vhodnú liečbu a strávy dostatok času v posteli.</NewDisease>
   <NewPartDisease>{0} dostal {1} infekciu. Uisti sa, že {0} dostane vhodnú liečbu a strávy dostatok času v posteli, aby sa rýchlo uzdravil.</NewPartDisease>
+  
+  <LetterLabelAncientShrineWarning>Staroveké nebezpečie</LetterLabelAncientShrineWarning>
+  <AncientShrineWarning>Vzhľadom k tomu, že {0} prešiel/a okolo starovekej stavby, tak HIM má divnú predtuchu. HECAP si není istý/á, prečo cití odtiaľ nebezpečie.</AncientShrineWarning>
+
+  <StruckMineable>Žíla {0} je blízko!</StruckMineable>
+
+  <LetterLabelAnimalManhunterRevenge>{0} odveta</LetterLabelAnimalManhunterRevenge>
+  <AnimalManhunterFromDamage>{0} útoči po tom čo bol napadnutý!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>{0} útoči po pokuse o skrotenie!</AnimalManhunterFromTaming>
+  <AnimalManhunterOthers>Ostatné {0} v okolý sa tiež rozzúrily!</AnimalManhunterOthers>
+
+  <LetterFriendlyTrapSprungLabel>{0} Spustená pasť</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprung>{0} náhodne odistil/a pasť a dostal/a damage.</LetterFriendlyTrapSprung>
+  
+  <LetterHealthComplications>U {0} sa vyvinul zdravotný stav: {1} \ n \ nTen bol ako komplikácia od : {2} </LetterHealthComplications>
+  <LetterHealthComplicationsLabel> {0} {1} </LetterHealthComplicationsLabel>
+  
+  <LetterHediffFromRandomHediffGiver>U {0} sa vyvinul zdravotný stav : {1} </LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiverLabel> {0} {1} </LetterHediffFromRandomHediffGiverLabel>
+
+  <LetterLeadersDeathLabel>Zomrel líder</LetterLeadersDeathLabel>
+  <LetterLeadersDeath>Líder {0} frakcie {1} zomrel, bol nahradený {2}.</LetterLeadersDeath>
+    
+  <MentalBreakLetterLabel>Nervový kolaps</MentalBreakLetterLabel>
+  <MentalBreakReason>Poslednou kvapkou bolo: {0}.</MentalBreakReason>
+
+  <!-- Related pawns -->
+  <LetterLabelNoticedRelatedPawns>Vzťahy</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>Sú tu ľudia ktorý sú vo vzťahu s tvojími kolonistami alebo väzňami Prichádzajú so skupinov {0}.\n\nMaj napamäti, že aj keď sú rodina, stále na môžu navzajom napadnúť, kôly ich zlým fakčným vzťahom.\n\nTýka sa to týchto ľudí:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>Sú tu ľudia ktorý sú vo vzťahu s tvojími kolonistami alebo väzňami Prichádzajú so priateľskov skupinov {0}:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>Sú tu ľudia ktorý sú vo vzťahu s tvojími kolonistami alebo väzňami Prichádzajú so skupinov {0}.</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>Orbitalny obchodník predáva ľudí ktorý sú vo vzťahu z tvojími kolonistami alebo väzňami:</LetterRelatedPawnsTradeShip>
+  
+  <RelationshipAppendedLetterSuffix>(vzťahy)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME je vo vzťahu z kolonistom/tkou. HECAP is {0}'s {1}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME je vo vzťahu z väzňom. HECAP is {0}'s {1}.</RelationshipAppendedLetterTextPrisoner>
+  
+  <!-- Attempt romance / propose interaction -->
+  <LetterLabelAffair>Aféra</LetterLabelAffair>
+  <LetterAffair>{0}, sú manželia s {1}, si začal/a románík s {2}.</LetterAffair>
+  <LetterLabelNewLovers>Nový milenci</LetterLabelNewLovers>
+  <LetterNewLovers>{0} a {1} sa dali dohromady. Sú nový milenci.</LetterNewLovers>
+  <LetterNoLongerLovers>{0} an {1} nie sú ďalej vo vzťahu.</LetterNoLongerLovers>
+  <LetterLabelBreakup>Rozchod</LetterLabelBreakup>
+  <LetterLabelAcceptedProposal>Bude svatba!</LetterLabelAcceptedProposal>
+  <LetterLabelRejectedProposal>Odmietol/la návrh.</LetterLabelRejectedProposal>
+  <LetterAcceptedProposal>{1} prijal/a {0} návrh na svatbu.\n\nAt some point in the coming days or seasons, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs.</LetterAcceptedProposal>
+  <LetterRejectedProposal>{1} odmietol/a {0}návrh na svatbu. {0} is going to be unhappy about this.</LetterRejectedProposal>
+  
+   <!-- Generalized letter labels -->
+  <LetterLabelRelationsChangeBad>Dobrá energia</LetterLabelRelationsChangeBad>
+  <LetterLabelRelationsChangeGood>Zlá energia</LetterLabelRelationsChangeGood>
+  <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+  <LetterLabelMentalBreakdown>Nervový kolaps</LetterLabelMentalBreakdown>
+  
+   <!-- Bonded animals -->
+  <LetterLabelBondedAnimalDied>Spriaznené zviera zomrelo</LetterLabelBondedAnimalDied>
+  <LetterBondedAnimalDied>{0}, priradené {1}, zomrelo. To bude mať následnky na {1}náladu.</LetterBondedAnimalDied>
+  <LetterNamedBondedAnimalDied>{0} menom {1}, priradené {2}, zomrelo. To bude mať následnky na {2}náladu.</LetterNamedBondedAnimalDied>
+  <LetterBondedAnimalDiedMulti>{0} zomrel. To bude mať následnky na náladu týchto ľudí:\n\n{1}</LetterBondedAnimalDiedMulti>
+  <LetterNamedBondedAnimalDiedMulti>{0} menom {1} zomrelo. To bude mať následnky na náladu týchto ľudí:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+
+  <!-- Prison break -->
+  <LetterLabelPrisonBreak>Útek z väzenia</LetterLabelPrisonBreak>
+  <LetterPrisonBreak>Väzni utekajú! Podarilo sa im zničiť zámok dverí a razia si cestu von. Môžu si ulúpiť zbrane, bojovať, alebo sa pokúsiť sa o útek. Zapojily sa týto väzni:\n\n{0}\n\nU väzňou je väčšia pravdepodobnosť že sa pokúsia o útek, keď sú nešťastný , vo väčšiom počte a zdravý.</LetterPrisonBreak>
+  
+  <!-- Party -->
+  <LetterLabelNewParty>Party</LetterLabelNewParty>
+  <LetterNewParty>{0} začal/a party !  Každý kto sa pridá získa radosť a spoločenskú energiu, a zvýši pozitývnu náladu.</LetterNewParty>
+
+  <!-- Newly addicted -->
+  <LetterLabelNewlyAddicted>{0} je závislý</LetterLabelNewlyAddicted>
+  <LetterNewlyAddicted>{0} si vyvinul/a závislosť na {1}.\n\nHECAP teraz potrebuje {1}, je to vyditeľné v HIS Záložke potreby. HECAP automaticky konzumuje drogu aby naplnil/a svoje potreby. Ak HE nedostane nejaké {1}, odýde do vyhnanstva.</LetterNewlyAddicted>
+  
+  <!-- Drug binge -->
+  <LetterLabelDrugBinge>{0} Drogový záchvat</LetterLabelDrugBinge>
+  <LetterDrugBinge>{0} ma záchvat po {1}.</LetterDrugBinge>
  
 </LanguageData>
